@@ -1,0 +1,5 @@
+SOURCE += regionSolvers/regionSolvers.C
+SOURCE += setDeltaT.C
+SOURCE += foamMultiRun.C
+
+EXE = $(FOAM_USER_APPBIN)/foamMultiRunCHT
